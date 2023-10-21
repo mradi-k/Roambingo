@@ -1,0 +1,26 @@
+.tscontainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    flex: wrap;
+    margin: auto;
+}
+
+.jigsaw-puzzle {
+    width: 73%!important;
+    height: 80vh!important;
+    border: 2px solid black;
+    margin: 10px 0;
+    box-shadow: 0 5px 10px 2px rgba(0, 0, 0, 0.25);
+}
+
+@media screen and (max-width: 868px) {
+    .tscontainer,.jigsaw-puzzle {
+        width: 95%!important;
+        display: block;
+    }
+    .jigsaw-puzzle{
+        height: 40vh!important;
+    }
+}

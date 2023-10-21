@@ -1,0 +1,7 @@
+.bg-shadow:hover {
+  box-shadow: 0 15px 26px rgba(0, 0, 0, 0.5);
+}
+
+.bg-shadow{
+    box-shadow: 0 3px 4px rgba(0,0,0,.4);
+}

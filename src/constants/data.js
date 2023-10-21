@@ -1,0 +1,9 @@
+export const API_BASE_URL = 'http://portal.roambingo.com/api/';
+export const BEARER_TOKEN ='Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3RcL2JpbmdvXC9hcGlcL2xvZ2luIiwiaWF0IjoxNjY3NzkxNTY3LCJleHAiOjE2NzAzODM1NjcsIm5iZiI6MTY2Nzc5MTU2NywianRpIjoiNk1lZzZwdEl3M1FOOVdyZCIsInN1YiI6MSwicHJ2IjoiMjNiZDVjODk0OWY2MDBhZGIzOWU3MDFjNDAwODcyZGI3YTU5NzZmNyJ9.8JqVUgKrOKqrwcBLyMaeAyAU_kwfs3rN3UK84otM_y8';
+export const SECRET_KEY="roambingo@007";
+export const LOGIN_API ="http://portal.roambingo.com/api/login";
+export const DESTINATION_LIST ="http://portal.roambingo.com/api/destination/list";
+export const DESTINATION_DETAILS ="http://portal.roambingo.com/api/destination/";
+export const PROFILE_PIC_UPDATE ="http://portal.roambingo.com/api/profile/pic/update";
+export const PROFILE_UPDATE ="http://portal.roambingo.com/api/profile/update";
+export const CalculatePoints = "http://portal.roambingo.com/api/destination/earn/point";

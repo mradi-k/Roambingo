@@ -1,0 +1,89 @@
+.tscontainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 90%;
+  padding: 20px;
+  flex: wrap;
+  margin: auto;
+}
+
+.pingContainer {
+  cursor: move;
+}
+
+.ping {
+  position: relative;
+  width: 49px;
+  height: 49px;
+  text-align: center;
+  font-size: 13px;
+  cursor: move;
+  z-index: 90;
+}
+
+.placeContainer {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  /* margin: "30px auto"; */
+}
+
+.dropPosition {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border: 2px dashed blue;
+  /* border-radius: 50%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.imgcontainer {
+  position: relative;
+}
+
+@media screen and (max-width: 868px) {
+  .tscontainer,.main-ping {
+    width: 95%;
+    margin: auto;
+    display: block;
+  }
+
+  .dropPosition {
+    width: 50px;
+    height: 50px;
+  }
+
+  .point-level {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .complete-message {
+    width: 95% !important;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .main-ping {
+    width: 95% !important;
+    margin: 10px auto;
+  }
+
+  .dropPosition {
+    width: 35px;
+    height: 35px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .dropPosition {
+    width: 28px;
+    height: 28px;
+  }
+}
